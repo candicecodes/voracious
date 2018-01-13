@@ -1,11 +1,5 @@
 @import "partials/reset";
 @import "partials/business";
 @import "partials/business-list";
-
-body {
-    background: darkcyan;
-}
-
-.App-intro {
-    color: green;
-}
+@import "partials/search-bar";
+@import "partials/mediaqueries";
