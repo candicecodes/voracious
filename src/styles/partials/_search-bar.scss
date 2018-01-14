@@ -2,14 +2,19 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url('./background_search_desktop.jpg');
-    //going to have to change the above relative to where css file is located
+    background-image: url('../assets/lum3n-desktop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 25rem;
 }
 
 .SearchBar-sort-options {
+    ul {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2.22rem;
+        color: #ffffff;
+    }
     li {
         cursor: pointer;
         width: 4.33rem;
@@ -54,13 +59,15 @@
     a {
         border-radius: 4px;
         padding: .72rem 1.7rem;
-        background-color: #cca353;
+        // background-color: #cca353;
+        background-color: $primaryColour;
         color: #ffffff;
         font-weight: 600;
         transition: background-color .5s;
         &:hover {
             cursor: pointer;
-            background-color: #a7874b;
+            // background-color: #a7874b;
+            background-color: darken($primaryColour, 10);
         }
     }
 }
