@@ -30,8 +30,8 @@
         }
         &.active,
         &.active:hover {
-            border-bottom: 1px solid #f0c36c;
-            color: #f0c36c;
+            border-bottom: 1px solid lighten($primaryColour, 20);
+            color: lighten($primaryColour, 20);
         }
     }
 }
